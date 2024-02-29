@@ -1,0 +1,58 @@
+repo_name: mollypi/realbrowserlocusts
+report_id: a2abf8dd1edaad946e7454da2165fee5
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T18:46:08+00:00'
+requested_by: nickboucart
+provider: github
+branch: master
+detected_tools_count: 4
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/mollypi/realbrowserlocusts
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/mollypi/realbrowserlocusts
+  detection_source: Repo Metadata
+- name: Pylint
+  description: Source-code, bug and quality checker for the Python programming language
+  website_url: https://www.pylint.org/
+  version: 1.7.1
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4837/py.jpg
+  detection_source_url: https://github.com/mollypi/realbrowserlocusts/blob/master/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Colin Wren
+  last_updated_on: 2017-06-06 14:56:22.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/mollypi/realbrowserlocusts/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: Colin Wren
+  last_updated_on: 2017-06-06 14:56:22.000000000 Z
